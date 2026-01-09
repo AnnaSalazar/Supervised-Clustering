@@ -26,3 +26,41 @@ reproduce the main results reported in the paper.
 The analysis was developed and tested using:
 
 - R version >= 4.5.0
+
+------------------------------------------------------------
+3. How to reproduce the results
+------------------------------------------------------------
+
+1. Clone or download this repository.
+2. Open R or RStudio and set the working directory to the repository root.
+3. Run the script.
+
+
+------------------------------------------------------------
+4. Data availability
+------------------------------------------------------------
+
+The file `Sample.RData` contains a reduced random sample of the original data,
+included solely for reproducibility and demonstration purposes. The code structure
+and results obtained with this sample are consistent with those reported in the
+paper, although numerical values may differ.
+
+------------------------------------------------------------
+5. Reproducibility notes
+------------------------------------------------------------
+
+- Random seeds are fixed where applicable to ensure reproducibility.
+- Minor numerical differences may occur across platforms or R versions.
+- The repository reflects the version of the code corresponding to the
+  accepted manuscript.
+
+------------------------------------------------------------
+6. Contact
+------------------------------------------------------------
+
+For questions regarding the code or reproducibility, please contact:
+
+[Anna Salazar]
+[Universitat de Barcelona]
+[asalazar@ub.edu]
+
